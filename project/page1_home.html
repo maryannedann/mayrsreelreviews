@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="allpages.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../project/projectimages/favicon.ico">
+    <style>
+        .preview_boarder {
+            border-left: 2px solid black;
+            margin-top: 150px;
+        }
+        .preview_fb {
+            display: flex;
+            align-items: flex-start;
+            padding: 40px; 
+            margin-left: 40px;
+            overflow-x: auto; 
+            overflow-y: hidden;
+        }
+        * {
+            scrollbar-color: #990011 #FCF6F5;
+        }
+        .preview_imgs {
+            display: inline-block;
+            padding: 10px; 
+        }
+        figcaption {
+            text-align: center;
+        }
+        .spotlight_boarder{
+            border-left: 2px solid black;
+            margin-top: 150px;
+        }
+        .spotlight_fb {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            margin-left: 40px;
+        }
+        .spotlight_img {
+            margin-top: 10px;
+            align-items: flex-start;
+        }
+        .spotlight_title {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 80px;
+            text-decoration: underline;
+        }
+        .spotlight_text{
+            align-items: end;
+            text-align: center;
+            margin-top: 90px;
+            font-size: larger;
+            line-height: 40px;
+        }
+        .aboutme_boarder {
+            border: 2px solid black;
+            margin-top: 150px;
+        }
+        .aboutme_fb {
+            display: flex;
+        }
+        .aboutme_img {
+            float: right;
+            padding:20px;
+            align-items: end;
+        }
+        .aboutme_text{
+            align-items: start;
+            margin-top: 200px;
+            margin-left: 125px;
+            margin-right: 125px;
+            font-size: larger;
+            line-height: 40px;
+        }
+
+        div, h1 {
+            padding:15px;
+        }
+
+        .aboutme_paragraph {
+            align-items:flex-start;
+        }
+
+        .aboutme_header {
+            padding: 10px;
+        }
+
+        .footer_heading {
+            text-align: center;
+        }
+
+        .form_fb {
+            display: flex;
+        }
+        
+        .reccomendation {
+            flex: 1;
+            align-items: center;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .aboutme_fb {
+                flex-direction: column; 
+            }
+            .aboutme_text {
+                margin-left: 10px; 
+                margin-right: 10px; 
+            }
+            .spotlight_img {
+                width: 250px; 
+                height: auto;
+            }
+            .aboutme_img {
+                width: 150px; 
+                height: auto;
+            }
+            .spotlight_fb {
+                flex-direction: column;
+            }
+           
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+    <div class="header_fb">
+        <img src="../project/projectimages/logo2.png" class="banner_img" alt="banner logo">
+    </div>
+    </header>
+
+    <nav class="nav_links">
+        <a href="#skip" class="skip" tabindex="1">Skip to Content</a><br>
+        <hr>
+        <a href="page1_home.html" class="nav_link">HOME</a> 
+        <a href="page2_reviews.html" class="nav_link">REVIEWS</a>
+        <a href="page3_top10.html" class="nav_link">TOP 10</a>
+        <hr>
+    </nav>
+
+    <div class="preview_boarder">
+        <h2 id="skip">Recent Reviews</h2>
+        <div class="preview_fb">
+            <div>
+                <a href="lovehaswon_review.html"> <img class="preview_imgs" src="../project/projectimages/lovehaswon.jpg" alt="tvshowstill" width="400" height="235"></a>
+                <figcaption>Love Has Won</figcaption>
+            </div>
+    
+            <div>
+                <a href="thesopranos_review.html"><img class="preview_imgs" src="../project/projectimages/sopranos2.jpeg" alt="tvshowstill" width="400" height="235"></a>
+                <figcaption>The Sopranos</figcaption>
+            </div>
+    
+            <div>
+                <a href="uncutgems_reviews.html"><img class="preview_imgs" src="../project/projectimages/uncutgems2.jpeg" alt="moviestill" width="400" height="235"></a>
+                <figcaption>Uncut Gems</figcaption>
+            </div>
+    
+            <div>
+                <a href="whiplash_reveiw.html"><img class="preview_imgs" src="../project/projectimages/whiplash2.jpeg" alt="moviestill"  width="400" height="235"></a>
+                <figcaption>Whiplash</figcaption>
+            </div>
+        </div>
+    </div>
+
+    <div class="spotlight_boarder">
+        <h2>Spotlight</h2>
+        <div class="spotlight_fb">
+            <div>
+                <img class="spotlight_img" src="../project/projectimages/survivor.jpeg" alt="tvshowstill" width="822" height="550">
+                <figcaption class="spotlight_img">Survivor</figcaption>
+            </div>
+            <div class="spotlight_content">
+                <h2 class="spotlight_title">Survivor Season 45</h2>
+                <p class="spotlight_text">As survivor is one of my favorite shows its hard for me to not like a season. With that being said season 45 was not the survivor I grew up watching. While it ended strong with good players, the beggining was ROUGH to watch. In my opinion many of the people that first left the show were players that volentarily left because it was just too hard. Survivor is a once in a lifetime chance to get casted on, they should'nt be casting people that leave just becuase they miss their bed! I want the old, nitty-gritty, non new era type players back.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutme_boarder">
+        <h1>About Mary</h1>
+        <div class="aboutme_fb">
+            <div>
+                <p class="aboutme_text">
+                    Mary is from a somewhat small town named Lodi, California just outside the capitol Sacramento. After graduating high school, she attended Syracuse University. Growing up every year her family would watch the Oscars like it was the Superbowl. Almost any genre is of interest to her, movies and T.V shows are her life. Originally coming to Syracuse she originally thought she wanted to get her degree in filmmaking, although after exploring and taking a wide variety of courses she discovered her true passion, web development! This website is a true combination of the things she loves the most HTML and moives/TV shows.
+                </p>
+            </div>
+        <div>
+            <img class="aboutme_img" src="../project/projectimages/aboutme.jpg" alt="person" >
+         </div>
+    
+        </div>
+    </div>
+   
+   
+<footer>
+    <h1 class="footer_heading">Reccomend a Movie or TV Show for Mary to Review!</h1>
+    <form action="https://formspree.io/f/xoqgebkk" method="post">
+    <div class="form_fb">
+        <div class="name_email">
+            <label for="name">Name</label><br>
+            <textarea id="name" name="name" rows="3" cols="40" class="form_tb"></textarea>
+            <br>
+            <br>
+            <br>
+            <label for="email" >Email</label><br>
+            <textarea id="email" name="email" rows="3" cols="40" class="form_tb"></textarea><br>
+        </div>
+        <div class="reccomendation">
+            <label for ="comment">Reccomendation</label><br>
+            <textarea id="comment" name="comment" rows="10" cols="80" class="form_tb"></textarea><br>
+            <input type="submit" class="submit" value="Submit">
+        </div>
+    </div>
+        
+    </form>
+</footer>
+</body>
+</html>
